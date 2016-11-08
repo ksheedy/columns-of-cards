@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  font-size: .875rem;
 }
 
 header {
@@ -13,25 +14,47 @@ header {
 
 h1, h2, h3, p {
   margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-style: italic;
 }
 
 img {
   width: 100px;
+  margin: 0 auto 1.5rem;
 }
 
 .anderon {
+  float: left;
+  width: 25%;
   background-color: #e2e2e2;
 }
 
 .dinosaur {
+  float: left;
+  width: 25%;
   background-color: #ccc;
 }
 
 .dragon {
+  float: left;
+  width: 25%;
   background-color: #aaa;
 }
 
 .laser {
+  float: left;
+  width: 25%;
   background-color: #999;
 }
 
